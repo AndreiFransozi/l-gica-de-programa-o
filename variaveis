@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main ()
+{
+    int inteira;
+    inteira = 9000;
+    float decimal = 100.59;
+    char caractere = 'a';
+
+    printf("%i\n", inteira);
+    printf("%f\n", decimal);
+    printf("%c\n", caractere);
+    return 0;
+}
