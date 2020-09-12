@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <locale.h>
+int main()
+{
+    setlocale(LC_ALL,"Portuguese");
+    int minhaIdade;
+    minhaIdade = 20;
+    int paiIdade = 50;
+    int maeIdade = 52;
+    printf("Minha idade  = %i.\n Pai idade = %i\n Mae idade = %i",
+           minhaIdade, paiIdade, maeIdade);
+    return 0;
+}
